@@ -81,7 +81,7 @@ dependencies {
     annotationProcessor 'com.google.code.gson:gson:2.8.6'
     annotationProcessor (mixin) { transitive = false }
 
-    implementation 'com.github.oskardotglobal:ZombiesAreReal:v2.2.0'
+    implementation 'com.github.oskardotglobal:ZombiesAreReal:v2.3.2'
 }
 
 def at = project.files("src/main/resources/META-INF/${project.id}_at.cfg")
